@@ -1,0 +1,35 @@
+.title-xl{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.title-l{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.title-m{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.title-s{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.text-m{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.text-s{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
