@@ -1,5 +1,7 @@
 .header{
- display: flex;
+    display: flex;
+    height: 100vh;
+
 }
 
 .header-card{
@@ -9,16 +11,15 @@
 .blackBackgrund{
     background-color: black;
     width: 450px;
-    height: 600px;
+    height: 100%;
 }
 
 .header-title{
     position: absolute;
-    top: 100px;
+    top: 179px;
     left: 212px;
     width: 380px;
     height: 200px;
-
 }
 
 .heroImg{
@@ -27,16 +28,36 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 450px;
-    height: 600px;
+    height: 100%;
 }
 
 .header-content{
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 290px;
-    top: 100px;
-    left: -53px;
+    width: 350px;
+    top: 169px;
+    left: -64px;
+}
 
+.header-content a{
+    margin-top: 50px;
+}
+
+
+/*nest hub and laptop 1024px*/
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .header-title{
+        top: 129px;
+        left: 122px;
+    }
+
+    .header-content {
+        top: 116px;
+    }
+
+    .blackBackgrund {
+        width: 360px;
+    }
 
 }

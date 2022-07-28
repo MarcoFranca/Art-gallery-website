@@ -1,0 +1,30 @@
+footer{
+    background-color: #151515;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+footer h2{
+    color: #FFFFFF;
+    width: 170px;
+}
+
+footer p{
+    color: #FFFFFF;
+    width: 422px;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img{
+    height: 25px;
+}
+
+.social-media img:hover{
+    filter: brightness(0) saturate(100%) invert(66%) sepia(12%) saturate(1470%) hue-rotate(341deg) brightness(97%) contrast(85%);
+}
