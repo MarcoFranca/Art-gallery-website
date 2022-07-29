@@ -23,3 +23,36 @@ main h1{
 .address-reference{
     width: 438px;
 }
+
+/*surface pro 7 and tablets 912px*/
+
+@media screen and (max-width: 912px) and (max-height: 1368px) {
+    .address-reference {
+        width: 399px;
+    }
+}
+
+/*iphone xr and mobiles 414px*/
+
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    .main{
+        flex-direction: column;
+        padding: 80px 30px;
+        height: auto;
+    }
+
+    .main h1{
+        width: 365px;
+        font-size: 65px;
+    }
+
+    .address-street{
+        margin-top: 50px;
+    }
+
+    .address-reference{
+        width: 338px;
+    }
+
+}
+
