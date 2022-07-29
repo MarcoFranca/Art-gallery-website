@@ -27,3 +27,23 @@ footer p{
 .social-media img:hover{
     filter: brightness(0) saturate(100%) invert(66%) sepia(12%) saturate(1470%) hue-rotate(341deg) brightness(97%) contrast(85%);
 }
+
+@media screen and (max-width: 912px) {
+    footer {
+        background-color: #151515;
+        display: flex;
+        padding: 70px 40px;
+        justify-content: space-between;
+    }
+
+    footer p {
+        width:295px;
+    }
+}
+
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
