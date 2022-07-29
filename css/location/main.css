@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    background-color: #151515;
+    justify-content: space-around;
+    height: 300px;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+main h1{
+    width: 260px;
+}
+
+.address-street h2{
+    color: #D5966C;
+}
+
+.address-street ul{
+    margin: 20px 0;
+}
+
+
+.address-reference{
+    width: 438px;
+}

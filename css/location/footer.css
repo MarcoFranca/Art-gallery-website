@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #D5966C;
+    padding: 100px;
+}
+
+.footer-logo{
+    width: 250px;
+}
+
+.footer img{
+    width: 100%;
+}
+
+.footer p{
+    width: 522px;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    gap: 25px;
+}
+
+.social-media img{
+    height: 25px;
+}
+
+.social-media img{
+    width: 100%;
+    filter: brightness(0) saturate(100%);
+}
+
+.social-media img:hover{
+        filter: brightness(0) saturate(100%) invert(95%) sepia(5%) saturate(0%) hue-rotate(321deg) brightness(106%) contrast(102%);
+}

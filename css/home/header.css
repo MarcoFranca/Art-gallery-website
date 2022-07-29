@@ -28,7 +28,7 @@
 }
 
 .heroImg{
-    background-image: url("../assets/desktop/image-hero@2x.jpg");
+    background-image: url("../../assets/desktop/image-hero@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

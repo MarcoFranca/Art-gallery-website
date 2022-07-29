@@ -33,7 +33,7 @@
 
 .galery-img1{
     grid-area: a2;
-    background-image: url("../assets/desktop/image-grid-1@2x.jpg");
+    background-image: url("../../assets/desktop/image-grid-1@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +45,7 @@
 
 .galery-img2{
     grid-area: a3;
-    background-image: url("../assets/desktop/image-grid-2@2x.jpg");
+    background-image: url("../../assets/desktop/image-grid-2@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,7 +62,7 @@
 }
 .galery-img3{
 
-    background-image: url("../assets/desktop/image-grid-3@2x.jpg");
+    background-image: url("../../assets/desktop/image-grid-3@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,7 +139,7 @@
     }
 
     .galery-img1{
-        background-image: url("../assets/tablet/image-grid-1@2x.jpg");
+        background-image: url("../../assets/tablet/image-grid-1@2x.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 558px;
