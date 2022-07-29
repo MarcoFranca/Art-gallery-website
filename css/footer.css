@@ -3,7 +3,6 @@ footer{
     display: flex;
     padding: 100px;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 footer h2{

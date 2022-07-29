@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Art gallery website coding challenge](../preview.jpg)
+![Design preview for the Art gallery website coding challenge](assets/README/preview.jpg)
 
 ### Links
 
