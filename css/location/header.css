@@ -5,14 +5,13 @@
 .buttom-anchor{
     position: absolute;
     left: 150px;
+    z-index: 2;
 }
 
-.map{
-    background-image: url("../../assets/desktop/image-map@2x.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#map{
     height: 100%;
+    z-index: 1;
+    border: solid 1px #151515;
 }
 
 /*nest hub and laptop 1024px*/
