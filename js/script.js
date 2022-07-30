@@ -1,5 +1,5 @@
 var iconArt = L.icon({
-    iconUrl: '../assets/icon-location.svg',
+    iconUrl: './assets/icon-location.svg',
     iconSize: [40]
 })
 
