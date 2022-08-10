@@ -57,6 +57,7 @@ body{
 
 
 .buttom{
+    display: flex;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 16px;
     text-transform: uppercase;
@@ -67,6 +68,8 @@ body{
     border: none;
     color: white;
     width: calc(100% - 2.5rem);
+    justify-content: center;
+    align-items: center;
 
 }
 
