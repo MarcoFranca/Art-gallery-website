@@ -32,18 +32,18 @@ footer p{
     footer {
         background-color: #151515;
         display: flex;
-        padding: 70px 40px;
+        padding: 4.375rem 2.5rem;
         justify-content: space-between;
     }
 
     footer p {
-        width:295px;
+        width:18.437rem;
     }
 }
 
-@media screen and (max-width: 414px) and (max-height: 896px) {
+@media screen and (max-width: 414px) and (max-height: 915px) {
     footer{
         flex-direction: column;
-        gap: 30px;
+        gap: 1.875rem;
     }
 }

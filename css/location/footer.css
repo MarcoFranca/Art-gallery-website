@@ -39,16 +39,16 @@
 /*nest hub and laptop 1024px*/
 @media screen and (max-width: 1024px) and (max-height: 600px) {
     .footer{
-        padding: 50px;
+        padding: 3.125rem;
     }
 
     .footer-logo{
-        width: 150px;
+        width: 9.375rem;
     }
 
     .footer p{
-        font-size: 19px;
-        width: 450px;
+        font-size: 1.187rem;
+        width: 28.125rem;
         font-weight: 300;
     }
 
@@ -58,31 +58,31 @@
 
 @media screen and (max-width: 912px) and (max-height: 1368px) {
     .footer{
-        padding: 60px;
+        padding: 3.75rem;
     }
     .footer-logo{
-        width: 150px;
+        width: 9.375rem;
     }
 
     .footer p{
-        font-size: 19px;
-        width: 345px;
+        font-size: 1.187rem;
+        width: 21.56rem;
     }
 }
 
 /*iphone xr and cellphones 414px*/
 
-@media screen and (max-width: 414px) and (max-height: 896px) {
+@media screen and (max-width: 540px) and (max-height: 915px) {
     .footer{
         flex-direction: column;
-        padding: 35px;
+        padding: 2.18rem;
         height: auto;
     }
 
     .footer p{
-        font-size:18px;
-        margin: 25px 0;
-        width: 357px;
+        font-size:1.125rem;
+        margin: 1.56rem 0;
+        width: 22.31rem;
     }
 }
 
